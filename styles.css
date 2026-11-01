@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap");
 
 :root {
   --navy: #101c2c;
@@ -48,7 +48,7 @@ img {
   background: #0b1420;
   color: #cbd3dc;
   font-size: 12px;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
 }
 
 .topbar-inner {
@@ -61,9 +61,9 @@ img {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: rgba(255, 255, 255, .96);
+  background: rgba(255, 255, 255, 0.96);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(16, 28, 44, .08);
+  border-bottom: 1px solid rgba(16, 28, 44, 0.08);
 }
 
 .nav-wrap {
@@ -111,15 +111,19 @@ img {
 }
 
 .brand-name {
-  font: 800 16px Manrope, sans-serif;
-  letter-spacing: .08em;
+  font:
+    800 16px Manrope,
+    sans-serif;
+  letter-spacing: 0.08em;
   line-height: 1.2;
 }
 
 .brand-name small {
   display: block;
-  font: 700 8px "DM Sans", sans-serif;
-  letter-spacing: .19em;
+  font:
+    700 8px "DM Sans",
+    sans-serif;
+  letter-spacing: 0.19em;
   margin-top: 5px;
   color: #687483;
 }
@@ -134,7 +138,7 @@ img {
 
 .nav-links a:not(.nav-cta) {
   color: #344254;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .nav-links a.active,
@@ -155,7 +159,7 @@ img {
   font-size: 13px;
   border: 0;
   cursor: pointer;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .nav-cta:hover,
@@ -195,8 +199,14 @@ img {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(9, 19, 31, .94) 0%, rgba(9, 19, 31, .78) 48%, rgba(9, 19, 31, .2) 100%),
-    url("https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=2000&q=88") center/cover;
+    linear-gradient(
+      90deg,
+      rgba(9, 19, 31, 0.94) 0%,
+      rgba(9, 19, 31, 0.78) 48%,
+      rgba(9, 19, 31, 0.2) 100%
+    ),
+    url("https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=2000&q=88")
+      center/cover;
 }
 
 .hero-content {
@@ -211,7 +221,7 @@ img {
   gap: 10px;
   font-size: 10px;
   font-weight: 800;
-  letter-spacing: .19em;
+  letter-spacing: 0.19em;
   color: var(--orange);
   text-transform: uppercase;
 }
@@ -228,8 +238,10 @@ img {
 
 .hero h1,
 .page-hero h1 {
-  font: 800 clamp(42px, 6vw, 72px)/1.08 Manrope, sans-serif;
-  letter-spacing: -.045em;
+  font:
+    800 clamp(42px, 6vw, 72px)/1.08 Manrope,
+    sans-serif;
+  letter-spacing: -0.045em;
   margin: 24px 0;
 }
 
@@ -271,7 +283,7 @@ h2 em {
   margin-top: 65px;
   color: #bac5d1;
   font-size: 10px;
-  letter-spacing: .15em;
+  letter-spacing: 0.15em;
   font-weight: 700;
 }
 
@@ -283,8 +295,9 @@ h2 em {
 
 .page-hero {
   background:
-    linear-gradient(90deg, rgba(9, 19, 31, .94), rgba(9, 19, 31, .7)),
-    url("https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1800&q=85") center/cover;
+    linear-gradient(90deg, rgba(9, 19, 31, 0.94), rgba(9, 19, 31, 0.7)),
+    url("https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1800&q=85")
+      center/cover;
   color: #fff;
   padding: 88px 0 95px;
 }
@@ -336,8 +349,10 @@ h2 em {
 .section-head h2,
 .split h2,
 .contact-intro h2 {
-  font: 800 clamp(30px, 4vw, 47px)/1.16 Manrope, sans-serif;
-  letter-spacing: -.04em;
+  font:
+    800 clamp(30px, 4vw, 47px)/1.16 Manrope,
+    sans-serif;
+  letter-spacing: -0.04em;
   margin: 13px 0 0;
 }
 
@@ -413,7 +428,7 @@ h2 em {
   background: #fff;
   color: var(--ink);
   border: 1px solid var(--line);
-  transition: .25s;
+  transition: 0.25s;
 }
 
 .card:hover {
@@ -434,7 +449,7 @@ h2 em {
 .card-no {
   font-size: 10px;
   font-weight: 800;
-  letter-spacing: .14em;
+  letter-spacing: 0.14em;
   color: var(--orange);
 }
 
@@ -453,7 +468,7 @@ h2 em {
   font-weight: 800;
   font-size: 12px;
   color: var(--orange);
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
 }
 
 .text-link span {
@@ -562,7 +577,7 @@ h2 em {
   height: 100%;
   min-height: 250px;
   object-fit: cover;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .gallery-grid figure:hover img {
@@ -583,7 +598,7 @@ h2 em {
 /* Contact form */
 .contact-grid {
   display: grid;
-  grid-template-columns: .9fr 1.1fr;
+  grid-template-columns: 0.9fr 1.1fr;
   gap: 65px;
 }
 
@@ -608,7 +623,7 @@ h2 em {
   display: block;
   color: #ffb17e;
   font-size: 10px;
-  letter-spacing: .16em;
+  letter-spacing: 0.16em;
   font-weight: 800;
 }
 
@@ -655,7 +670,9 @@ h2 em {
   padding: 12px;
   border: 1px solid #d8dee5;
   background: #fbfcfd;
-  font: 13px "DM Sans", sans-serif;
+  font:
+    13px "DM Sans",
+    sans-serif;
   outline: none;
 }
 
@@ -707,7 +724,7 @@ h2 em {
 .back-top {
   font-size: 10px;
   font-weight: 800;
-  letter-spacing: .14em;
+  letter-spacing: 0.14em;
   color: #ffad79;
 }
 
@@ -726,7 +743,7 @@ h2 em {
   color: #b84c13;
   font-size: 10px;
   font-weight: 800;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
@@ -777,17 +794,24 @@ h2 em {
   gap: 8px;
   padding: 13px 18px;
   border-radius: 999px;
-  background: #25D366;
+  background: #25d366;
   color: #fff;
   font-weight: 700;
   text-decoration: none;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, .2);
-  transition: background .2s, transform .2s;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  transition:
+    background 0.2s,
+    transform 0.2s;
 }
 
 .whatsapp-float:hover {
-  background: #1DA851;
+  background: #1da851;
   transform: translateY(-2px);
+}
+
+.whatsapp-float i {
+  font-size: 22px;
+  line-height: 1;
 }
 
 /* Tablet */
@@ -894,7 +918,7 @@ h2 em {
     border-right: 0;
   }
 
-  .feature-strip div:nth-child(-n+2) {
+  .feature-strip div:nth-child(-n + 2) {
     border-bottom: 1px solid var(--line);
   }
 
